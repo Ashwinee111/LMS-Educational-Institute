@@ -1,0 +1,189 @@
+@media screen and (min-width: 765px) {
+  /* *=========== navigation ================= */
+  .hamburg {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+  }
+
+  .navigation ul {
+    gap: 15px;
+  }
+
+  .navigation a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--second-color);
+  }
+
+  .navigation a:hover {
+    color: var(--main-color);
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+  }
+
+  .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cart a {
+    padding: 10px;
+    color: var(--second-color);
+  }
+
+  .cart a:hover {
+    color: var(--main-color);
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+  }
+
+  /* *======== hero section ================== */
+
+  .col-1 h4 {
+    font-size: 1rem;
+  }
+
+  .col-1 h2 {
+    font-size: 2.5rem;
+  }
+
+  .col-1 p {
+    font-size: 0.9rem;
+  }
+
+  .col-2 {
+    width: 60%;
+  }
+
+  /* *========== show section ================= */
+
+  .show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .show-card {
+    width: calc(50% - 20px);
+    margin: 20px 0 0px 0;
+  }
+
+  /* *========== categories section =============== */
+
+  .categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .categories-card {
+    width: calc(50% - 20px);
+    margin: 20px 0 0px 0;
+  }
+
+  /* *========== courses section =============== */
+
+  .course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .course-card {
+    width: calc(50% - 20px);
+    margin: 20px 0 0px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* *======== hero section ================== */
+
+  .hero-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .col-1,
+  .col-2 {
+    width: calc(50% - 20px);
+  }
+
+  .col-1 h4 {
+    font-size: 1.1rem;
+  }
+
+  .col-1 h2 {
+    font-size: 2.8rem;
+  }
+
+  .col-1 p {
+    font-size: 0.9rem;
+  }
+
+  /* *========== show section ================= */
+
+  .show-card {
+    width: calc(25% - 20px);
+  }
+
+  /* *========== categories section =============== */
+
+  .categories-card {
+    width: calc(25% - 20px);
+  }
+
+  /* *========== courses section =============== */
+
+  .course {
+    gap: 25px;
+  }
+  .course-card {
+    width: calc(30% - 25px);
+  }
+
+  /* *========== company section =============== */
+
+  .company-card {
+    width: calc(15% - 20px);
+    margin-top: 10px;
+  }
+
+  /* *========== about section =============== */
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .left,
+  .right {
+    width: calc(50% - 20px);
+  }
+
+  .right h4 {
+    font-size: 1.8rem;
+  }
+
+  /* *========== footer section =============== */
+
+  .ft-box {
+    width: calc(20% - 20px);
+  }
+}
